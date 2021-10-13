@@ -12,6 +12,6 @@ function display(value){
 
 function calculate (){
     var a = document.getElementById("result").value;
-    var b = eval(p);
-    document.getElementById("result").value = q;
+    var b = eval(a);
+    document.getElementById("result").value = b;
 }
