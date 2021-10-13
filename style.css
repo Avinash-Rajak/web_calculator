@@ -22,14 +22,18 @@ button{
     width: 102px;
     height: 58px;
     border-radius: 20px;
-    
+    height: 70px;
+    margin: 6px;
 }
 
 .calculator{
     display: inline-block;
     background-color: red;
     padding: 23px;
+    border: 5px solid black;
     border-radius: 53px;
+    
+    
     /* max-width: 100%; */
 }
 
