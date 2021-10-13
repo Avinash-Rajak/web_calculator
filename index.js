@@ -15,3 +15,5 @@ function calculate (){
     var b = eval(a);
     document.getElementById("result").value = b;
 }
+
+//done
