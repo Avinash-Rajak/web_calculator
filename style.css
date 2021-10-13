@@ -30,4 +30,6 @@ button{
     background-color: red;
     padding: 23px;
     border-radius: 53px;
+    /* max-width: 100%; */
 }
+
