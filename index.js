@@ -1,10 +1,17 @@
-let screen = document.getElementById('screen');
-buttons = document.querySelectorAll('button')
-for(item of buttons){
-    item.addEventListner('click', (e) =>{
-        buttonText = e.target.innerText;
-        console.log('Button text is ', buttonText);
-    }
-    )
-        
+function clearScreen(){
+    document.getElementById("result").value = "";
+}
+
+//value show
+
+function display(value){
+    document.getElementById ("result").value += value
+}
+
+//result
+
+function calculate (){
+    var a = document.getElementById("result").value;
+    var b = eval(p);
+    document.getElementById("result").value = q;
 }
